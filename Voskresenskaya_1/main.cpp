@@ -6,19 +6,7 @@ struct Pair
 {
 	int first;
 	int second;
-
-	Pair(Pair& p)
-	{
-		first = p.first;
-		second = p.second;
-	}
-
-	Pair()
-	{
-		first = 0;
-		second = 0;
-	}
-
+	
 	int summa()
 	{
 		return first * second;
